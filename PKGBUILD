@@ -11,7 +11,7 @@ depends=('firejail' 'inotify-tools' 'xdg-utils')
 # package contains only text files
 options=(libtool !purge staticlibs !strip !zipman)
 install=firejail-handler-http.install
-_commit=5367a7aabf463f0cc5ca3f894e1b1986f5080362  # initial release
+_commit=14f27ff50cf3e8a71ecd0f4ae0266eb8c1be8093  # initial release
 source=("git+https://github.com/glitsj16/firejail-handler-http.git#commit=${_commit}")
 sha256sums=('SKIP')
 
