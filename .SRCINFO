@@ -14,7 +14,7 @@ pkgbase = firejail-handler-http
 	options = staticlibs
 	options = !strip
 	options = !zipman
-	source = git+https://github.com/glitsj16/firejail-handler-http.git#commit=4a432ee61426fe728f5ef021429a863690783805
+	source = git+https://github.com/glitsj16/firejail-handler-http.git#_commit=14f27ff50cf3e8a71ecd0f4ae0266eb8c1be8093
 	sha256sums = SKIP
 
 pkgname = firejail-handler-http
